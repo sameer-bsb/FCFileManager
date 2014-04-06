@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/sameer-bsb/FCFileManager.git", :tag => "0.0.1" }
 
-  s.source_files  = '*.{h,m}'
+  s.source_files  = 'FCFileManager/*.{h,m}'
   
   s.requires_arc = true
 
